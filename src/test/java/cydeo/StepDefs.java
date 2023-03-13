@@ -16,7 +16,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.util.concurrent.TimeUnit;
 
 
-public class StepDefs { // thi sis a test 7;30 am
+public class StepDefs { // thi sis a test 7;30 am // 7:43 am again
 
     @Given("^I am on the home page$") // edit from git hub 7;39 am 
     public void i_am_on_the_home_page() throws Throwable {

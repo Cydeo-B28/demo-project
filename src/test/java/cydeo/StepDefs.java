@@ -29,7 +29,7 @@ public class StepDefs { // thi sis a test 7;30 am // 7:43 am again // 7;48 am  /
     @When("^I search for \"([^\"]*)\"$")
     public void i_search_for(String search) throws Throwable {
         Driver.getDriver().findElement(By.cssSelector("[id*='search-query']")).sendKeys(search + Keys.ENTER);
-    } // 8;42 update // 9;03 update
+    } // 8;42 update // 9;03 update. //  10;04 am 
 
     @Then("^I should see the results$") // 8;53 update
     public void i_should_see_the_results() throws Throwable {

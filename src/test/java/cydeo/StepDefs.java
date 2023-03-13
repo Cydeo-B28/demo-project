@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class StepDefs { // thi sis a test 7;30 am // this is test i wrote this on develop only
 
     @Given("^I am on the home page$") // edit from git hub 7;39 am 
-    public void i_am_on_the_home_page() throws Throwable {
+    public void i_am_on_the_home_page() throws Throwable { // develop 8;37 commit and push
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().get("http://etsy.com");

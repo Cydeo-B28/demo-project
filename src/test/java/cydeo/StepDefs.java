@@ -31,7 +31,7 @@ public class StepDefs { // thi sis a test 7;30 am // 7:43 am again // 7;48 am  /
         Driver.getDriver().findElement(By.cssSelector("[id*='search-query']")).sendKeys(search + Keys.ENTER);
     } // 8;42 update
 
-    @Then("^I should see the results$")
+    @Then("^I should see the results$") // 8;53 update
     public void i_should_see_the_results() throws Throwable {
         Thread.sleep(2000);
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("search"));

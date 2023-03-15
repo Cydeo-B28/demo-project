@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class StepDefs { // thi sis a test 7;30 am // 7:43 am again // 7;48 am  // 8:33 am change 
-// 3-15-23 1;14 pm second try
+// 3-15-23 1;20 pm
     @Given("^I am on the home page$") // edit from git hub 7;39 am 
     public void i_am_on_the_home_page() throws Throwable {
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

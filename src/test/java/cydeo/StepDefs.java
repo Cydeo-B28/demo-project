@@ -16,9 +16,9 @@ import org.openqa.selenium.TakesScreenshot;
 import java.util.concurrent.TimeUnit;
 
 
-public class StepDefs {
-
-    @Given("^I am on the home page$")
+public class StepDefs { // thi sis a test 7;30 am // 7:43 am again // 7;48 am  // 8:33 am change 
+// 3-15-23 1;27 pm / 3/15/23 1;46 pm
+    @Given("^I am on the home page$") // edit from git hub 7;39 am 
     public void i_am_on_the_home_page() throws Throwable {
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Driver.getDriver().manage().window().maximize();
@@ -29,9 +29,9 @@ public class StepDefs {
     @When("^I search for \"([^\"]*)\"$")
     public void i_search_for(String search) throws Throwable {
         Driver.getDriver().findElement(By.cssSelector("[id*='search-query']")).sendKeys(search + Keys.ENTER);
-    }
+    } // 8;42 update // 9;03 update. //  10;04 am  // 10;06 am again 
 
-    @Then("^I should see the results$")
+    @Then("^I should see the results$") // 8;53 update
     public void i_should_see_the_results() throws Throwable {
         Thread.sleep(2000);
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("search"));
